@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	int num1,num2,res;
+	cout<<"ingrese el primer numero";
+	cin>>num1;
+	cout<<"ingrese el segundo numero";
+	cin>>num2;
+	if ((num1%2!=1)&&(num2%2!=1))
+		res=(num1+num2);
+	else
+		res=(num1*num2);
+		cout<<"dependiendo del numero su resultado es"<<res;
+	_getch();
+}
