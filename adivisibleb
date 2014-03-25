@@ -1,0 +1,23 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main()
+{
+	int a,b,res;
+	cout<<"ingrese a";
+	cin>>a;
+	cout<<"ingrese b";
+	cin>>b;
+	if
+		((a%b==0))
+	{
+		res=(a/b);
+	    cout<<res;
+	}
+	else
+		cout<<"no es divisible";	
+	getch();
+}
