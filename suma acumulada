@@ -1,0 +1,27 @@
+// Nombre: Gonzalo Garcia Revollo
+// fecha: 01/04/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+int main()
+{
+	int suma, i, N;
+	cout<< "ingrese el valor de N:";
+	cin>>N;
+	suma=0;
+	cout<<"\nsuma=";
+	for (i=1;i<=N/2;i++)
+	{
+		suma=suma+(i*2);
+		cout<<i*2<<"+";
+    }
+	cout<<" la suma de los " << N << " primeros numeros pares naturales enteros es: " <<suma;
+	getch();
+	return 0;
+}
+
