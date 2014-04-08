@@ -1,0 +1,62 @@
+Nombre:Gonzalo Garcia
+// Fecha: 08-04-14
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	float parcial1,parcial2,parcial3,practica,examenfinal,notafinal;
+	do
+	{
+		cout<<"introduzca parcial 1: ";
+		cin>>parcial1;
+	}
+	while ((parcial1>100||parcial1<0)&&(parcial1!=(-99)));
+
+	while(parcial1!=(-99))
+	{
+		do
+		{
+			cout<<"introduzca parcial 2: ";
+			cin>>parcial2;
+		}
+		while (parcial2>100||parcial2<0);
+		do
+		{
+			cout<<"introduzca parcial 3: ";
+			cin>>parcial3;
+		}
+		while (parcial3>100||parcial3<0);
+		do
+		{
+			cout<<"intruduzca nota practica: ";
+			cin>>practica;
+		}
+		while (practica>100||practica<0);
+		do
+		{
+			cout<<"introduzca examen final: ";
+			cin>>examenfinal;
+		}
+		while (notafinal>100||notafinal<0);
+		notafinal=((((parcial1+parcial2+parcial3)/3)*0.4)+(practica*0.2)+(notafinal*0.4));
+		cout<<"Nota Final es: "<<notafinal;
+		do
+			{
+				cout<<"introduzca el parcial 1: ";
+				cin>>parcial1;
+
+			}
+		while ((parcial1>100||parcial1<0)&&(parcial1!=(-99)));
+	
+	}
+	getch();
+}
+
+
+
+
+
