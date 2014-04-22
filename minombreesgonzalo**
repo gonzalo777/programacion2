@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	char caracter='+';
+	int I;
+	for (I=0;I<=32;I++)
+		cout <<caracter;
+	cout<<"\n";
+	cout<<"* \t Me llamo Gonzalo       *";
+	cout<<"\n";
+		for (I=0;I<=32;I++)
+			cout<<caracter;
+	cout<<"\n";
+	getch();
+}
