@@ -1,0 +1,41 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main()
+{
+	float a,b,c,x1,x2,x;
+	cout<<" ingrese el dato a: ";
+	cin>>a;
+	cout<<" ingrese el dato b: ";
+	cin>>b;
+	cout<<" ingrese el dato c: ";
+	cin>>c;
+	if(b*b-4*a*c>0)
+	{
+		x1=-((b+sqrt(b*b-4*a*c))/2*a);
+		x2=-((b-sqrt(b*b-4*a*c))/2*a);
+		cout<<"x1="<<x1<<"y x2= "<<x2;
+	}
+	else
+	{	
+		if(sqrt(b*b-4*a*c)<0)
+		cout<<"el resultado es imaginario";
+		else(b*b-4*a*c==0);
+			x=-b/(2*a);
+		cout<<"es igual a x ="<<x;
+	
+	}
+	getch();
+}
+	
+	
+	
+
+
+
+
+
+
+
